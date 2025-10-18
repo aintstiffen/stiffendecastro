@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: portfolio-web
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: ""
+    autoDeploy: true

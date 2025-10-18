@@ -45,9 +45,9 @@
 </head>
 
 <body>
-    
-    @include('partials.navbar')
     <div id="particles-root"></div>
+    @include('partials.navbar')
+    
     @yield('content')
     @include('footer.footer')
     <script>

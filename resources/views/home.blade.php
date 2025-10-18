@@ -11,9 +11,7 @@
                 <div id="react-profile-card" data-profile-id="{{ auth()->id() ?? '' }}"></div>
             </div>
 
-                <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Stiffen Khrystoffer Vincent M. De Castro</h6>
-
-                <h1 class="font-normal text-gray-600 text-4xl md:text-7xl leading-none mb-8">Full Stack Developer</h1>
+                <h1 class="font-normal text-gray-600 text-4xl md:text-7xl leading-none mb-8">Backend Developer</h1>
 
                 <p class="font-normal text-gray-600 text-md md:text-xl mb-16">I have a passion for software. I enjoy
                     creating tools that make life easier for people.</p>

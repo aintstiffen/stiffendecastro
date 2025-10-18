@@ -9,7 +9,7 @@
             <div class="text-center">
             <div class="flex justify-center mb-16">
                 <div id="react-profile-card" data-profile-id="{{ auth()->id() ?? '' }}"></div>
-            </div>
+            </div>  
 
                 <h1 class="font-normal text-gray-600 text-4xl md:text-7xl leading-none mb-8">Backend Developer</h1>
 

@@ -157,17 +157,13 @@
 
     try {
       const saved = localStorage.getItem(storageKey);
-      if (saved === 'dark') {
-        applyTheme(true, false);
-      } else if (saved === 'light') {
+      if (saved === 'light') {
         applyTheme(false, false);
       } else {
-        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        applyTheme(prefersDark, false);
+        applyTheme(true, false); // Default to dark theme
       }
     } catch (e) {
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      applyTheme(prefersDark, false);
+      applyTheme(true, false);
     }
 
     toggles.forEach(btn => {
